@@ -41,9 +41,6 @@ function Home() {
                   <span className="relative z-10 bg-gradient-to-r from-white via-white to-white/70 bg-clip-text text-transparent">
                     Through Innovation
                   </span>
-                  <svg className="absolute -bottom-2 left-0 w-full" height="10" viewBox="0 0 300 10" fill="none" preserveAspectRatio="none">
-                    <path d="M2 6 Q 75 2 150 6 T 298 6" stroke="white" strokeWidth="2.5" strokeLinecap="round" opacity="0.7" />
-                  </svg>
                 </span>
               </h1>
               <p className="mt-5 text-lg sm:text-xl font-medium opacity-95">

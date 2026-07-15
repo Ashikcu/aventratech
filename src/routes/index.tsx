@@ -79,7 +79,7 @@ function Home() {
                 <div className="h-3 w-px bg-white/20 hidden sm:block" />
                 <div className="flex items-center gap-2">
                   <icons.spark className="h-4 w-4" />
-                  <span>150+ institutions</span>
+                  <span>20+ institutions</span>
                 </div>
               </div>
             </div>
@@ -147,8 +147,8 @@ function Home() {
           {/* Stats bar */}
           <div className="mt-16 grid grid-cols-2 gap-px overflow-hidden rounded-2xl border border-white/20 bg-white/10 backdrop-blur-md sm:grid-cols-4">
             {[
-              { n: "150+", l: "Institutions" },
-              { n: "12+", l: "Industries" },
+              { n: "20+", l: "Institutions" },
+              { n: "5+", l: "Industries" },
               { n: "99.9%", l: "Uptime" },
               { n: "24/7", l: "Support" },
             ].map((s) => (

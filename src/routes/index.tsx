@@ -177,6 +177,7 @@ function Home() {
             </h2>
             <p className="mt-4 text-muted-foreground text-lg">
               Aventra Tech delivers IT infrastructure, custom software, creative solutions and AI automation under one roof—helping organizations operate smarter, grow faster and focus on what matters most.
+            </p>
             <div className="mt-6 grid sm:grid-cols-2 gap-3">
               {["End-to-end delivery", "Enterprise-grade security", "Bilingual support", "SLA-backed AMC"].map((f) => (
                 <div key={f} className="flex items-center gap-2 text-sm">

@@ -6,8 +6,8 @@ export const Route = createFileRoute("/")({
   component: Home,
   head: () => ({
     meta: [
-      { title: "Aventra Tech — Empowering Institutions Through Innovation" },
-      { name: "description", content: "Enterprise IT, software, marketing, and AI automation solutions for hospitals, schools, and corporates." },
+      { title: "Aventra Tech" },
+      { name: "description", content: "Empowering Institutions Through Innovation" },
     ],
   }),
 });

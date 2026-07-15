@@ -16,21 +16,21 @@ function Home() {
   return (
     <>
       {/* Hero */}
-      <section className="relative overflow-hidden bg-gradient-hero">
-        {/* Animated grid */}
-        <div className="absolute inset-0 opacity-[0.15] [background:linear-gradient(white_1px,transparent_1px),linear-gradient(90deg,white_1px,transparent_1px)] [background-size:56px_56px] [mask-image:radial-gradient(ellipse_at_center,black_40%,transparent_75%)]" />
-        {/* Glow orbs */}
-        <div className="absolute -top-32 -right-32 h-[28rem] w-[28rem] rounded-full bg-white/20 blur-3xl animate-float" />
-        <div className="absolute -bottom-40 -left-32 h-[28rem] w-[28rem] rounded-full bg-primary-glow/40 blur-3xl animate-float" style={{ animationDelay: "2s" }} />
-        <div className="absolute top-1/3 right-1/4 h-64 w-64 rounded-full bg-white/10 blur-2xl animate-float" style={{ animationDelay: "4s" }} />
+      <section className="relative overflow-hidden bg-gradient-hero hero-bg isolate">
+        {/* Static painted glow layer — replaces 3 blur-3xl filter orbs (heavy paint) */}
+        <div aria-hidden className="absolute inset-0 hero-glow" />
+        {/* Grid — static, masked, single paint */}
+        <div aria-hidden className="absolute inset-0 opacity-[0.15] [background:linear-gradient(white_1px,transparent_1px),linear-gradient(90deg,white_1px,transparent_1px)] [background-size:56px_56px] [mask-image:radial-gradient(ellipse_at_center,black_40%,transparent_75%)]" />
+        {/* Single lightweight animated accent, GPU-composited */}
+        <div aria-hidden className="absolute top-1/3 right-1/4 h-64 w-64 rounded-full bg-white/10 blur-2xl transform-gpu will-change-transform motion-safe:animate-float motion-reduce:hidden" />
 
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20 sm:py-28 lg:py-32">
           <div className="grid gap-12 lg:grid-cols-[1.15fr_1fr] lg:items-center">
             {/* Left: copy */}
-            <div className="text-primary-foreground animate-fade-in-up">
+            <div className="text-primary-foreground motion-safe:animate-fade-in-up">
               <div className="inline-flex items-center gap-2 rounded-full border border-white/30 bg-white/10 px-3 py-1.5 text-xs font-semibold uppercase tracking-wider backdrop-blur-md">
                 <span className="relative flex h-2 w-2">
-                  <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-white opacity-75" />
+                  <span className="absolute inline-flex h-full w-full rounded-full bg-white opacity-75 motion-safe:animate-ping motion-reduce:hidden" />
                   <span className="relative inline-flex h-2 w-2 rounded-full bg-white" />
                 </span>
                 Aventra Tech · Bangladesh
@@ -87,10 +87,10 @@ function Home() {
               </div>
             </div>
 
-            {/* Right: floating glass card cluster */}
-            <div className="relative hidden lg:block h-[520px] animate-fade-in">
+            {/* Right: floating glass card cluster (desktop only; skipped from paint on mobile) */}
+            <div className="relative hidden lg:block h-[520px] motion-safe:animate-fade-in [content-visibility:auto] [contain-intrinsic-size:520px]" aria-hidden>
               {/* Main card */}
-              <div className="absolute right-0 top-8 w-80 rounded-2xl border border-white/25 bg-white/10 p-6 shadow-2xl backdrop-blur-xl animate-float">
+              <div className="absolute right-0 top-8 w-80 rounded-2xl border border-white/25 bg-white/15 p-6 shadow-2xl transform-gpu will-change-transform motion-safe:animate-float">
                 <div className="flex items-center gap-3">
                   <div className="grid h-11 w-11 place-items-center rounded-xl bg-white text-primary shadow-lg">
                     <icons.bot className="h-6 w-6" />
@@ -119,7 +119,7 @@ function Home() {
               </div>
 
               {/* Secondary card */}
-              <div className="absolute left-0 top-48 w-72 rounded-2xl border border-white/25 bg-white/10 p-5 shadow-2xl backdrop-blur-xl animate-float" style={{ animationDelay: "1.5s" }}>
+              <div className="absolute left-0 top-48 w-72 rounded-2xl border border-white/25 bg-white/15 p-5 shadow-2xl transform-gpu will-change-transform motion-safe:animate-float" style={{ animationDelay: "1.5s" }}>
                 <div className="flex items-center justify-between">
                   <div className="text-xs font-semibold uppercase tracking-wider text-white/70">Uptime</div>
                   <div className="flex gap-1">
@@ -133,7 +133,7 @@ function Home() {
               </div>
 
               {/* Tertiary card */}
-              <div className="absolute right-6 bottom-4 w-64 rounded-2xl border border-white/25 bg-white/10 p-5 shadow-2xl backdrop-blur-xl animate-float" style={{ animationDelay: "3s" }}>
+              <div className="absolute right-6 bottom-4 w-64 rounded-2xl border border-white/25 bg-white/15 p-5 shadow-2xl transform-gpu will-change-transform motion-safe:animate-float" style={{ animationDelay: "3s" }}>
                 <div className="flex items-center gap-2">
                   <icons.server className="h-4 w-4 text-white" />
                   <span className="text-xs font-semibold text-white">Managed Infrastructure</span>

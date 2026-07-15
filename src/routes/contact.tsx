@@ -8,7 +8,7 @@ export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
       { title: "Contact — Aventra Tech" },
-      { name: "description", content: "Get in touch with Aventra Tech. Head office in Dhaka, Bangladesh. Email info@aventratech.com." },
+      { name: "description", content: "Get in touch with Aventra Tech. Head office in Dhaka, Bangladesh. Email info@aventratech.net." },
     ],
   }),
 });
@@ -32,9 +32,9 @@ function Contact() {
         <div className="grid gap-10 lg:grid-cols-5">
           <div className="lg:col-span-2 space-y-6">
             {[
-              { icon: icons.building, title: "Head Office", value: "Dhaka, Bangladesh" },
-              { icon: icons.globe, title: "Email", value: "info@aventratech.com", href: "mailto:info@aventratech.com" },
-              { icon: icons.spark, title: "Website", value: "www.aventratech.com", href: "https://www.aventratech.com" },
+              { icon: icons.building, title: "Head Office", value: "114, Kazi Nazrul Islam Avenue, Rupayan Trade Centre, Banglamotor, Dhaka, Bangladesh" },
+              { icon: icons.globe, title: "Email", value: "info@aventratech.net", href: "mailto:info@aventratech.net" },
+              { icon: icons.spark, title: "Website", value: "www.aventratech.net", href: "https://www.aventratech.net" },
               { icon: icons.megaphone, title: "Phone", value: "+880 1570-265298", href: "tel:+8801570265298" },
               { icon: icons.bot, title: "WhatsApp", value: "+880 1570-265298", href: "https://wa.me/8801570265298" },
             ].map((c) => {

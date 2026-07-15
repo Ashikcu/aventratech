@@ -17,46 +17,156 @@ function Home() {
     <>
       {/* Hero */}
       <section className="relative overflow-hidden bg-gradient-hero">
-        <div className="absolute inset-0 opacity-20 [background:radial-gradient(circle_at_20%_20%,white_1px,transparent_1px)] [background-size:32px_32px]" />
-        <div className="absolute -top-20 -right-20 h-96 w-96 rounded-full bg-white/10 blur-3xl animate-float" />
-        <div className="absolute -bottom-20 -left-20 h-96 w-96 rounded-full bg-white/10 blur-3xl animate-float" style={{ animationDelay: "2s" }} />
-        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20 sm:py-28 lg:py-36">
-          <div className="max-w-3xl text-primary-foreground animate-fade-in-up">
-            <div className="inline-flex items-center rounded-full border border-white/30 bg-white/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider backdrop-blur">
-              Aventra Tech · Bangladesh
-            </div>
-            <h1 className="mt-6 text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.05] tracking-tight">
-              Empowering Institutions <br className="hidden sm:block" />Through Innovation
-            </h1>
-            <p className="mt-4 text-lg sm:text-xl font-medium opacity-90">
-              উদ্ভাবনের মাধ্যমে প্রতিষ্ঠানকে এগিয়ে নেওয়া
-            </p>
-            <p className="mt-6 text-base sm:text-lg text-primary-foreground/85 max-w-2xl">
-              We build enterprise-grade IT, software, creative and AI solutions that help hospitals, universities and corporates lead with confidence.
-            </p>
-            <div className="mt-10 flex flex-wrap gap-3">
-              <Link to="/contact" className="inline-flex items-center rounded-lg bg-white px-6 py-3 text-sm font-semibold text-primary shadow-lift transition-transform hover:scale-105">
-                Get a Proposal
-              </Link>
-              <Link to="/contact" className="inline-flex items-center rounded-lg border border-white/40 bg-white/10 px-6 py-3 text-sm font-semibold text-white backdrop-blur transition-colors hover:bg-white/20">
-                Contact Us
-              </Link>
-            </div>
-            <div className="mt-12 grid grid-cols-3 gap-6 max-w-md">
-              {[
-                { n: "150+", l: "Clients" },
-                { n: "12+", l: "Industries" },
-                { n: "24/7", l: "Support" },
-              ].map((s) => (
-                <div key={s.l}>
-                  <div className="text-2xl sm:text-3xl font-bold">{s.n}</div>
-                  <div className="text-xs uppercase tracking-wider opacity-80">{s.l}</div>
+        {/* Animated grid */}
+        <div className="absolute inset-0 opacity-[0.15] [background:linear-gradient(white_1px,transparent_1px),linear-gradient(90deg,white_1px,transparent_1px)] [background-size:56px_56px] [mask-image:radial-gradient(ellipse_at_center,black_40%,transparent_75%)]" />
+        {/* Glow orbs */}
+        <div className="absolute -top-32 -right-32 h-[28rem] w-[28rem] rounded-full bg-white/20 blur-3xl animate-float" />
+        <div className="absolute -bottom-40 -left-32 h-[28rem] w-[28rem] rounded-full bg-primary-glow/40 blur-3xl animate-float" style={{ animationDelay: "2s" }} />
+        <div className="absolute top-1/3 right-1/4 h-64 w-64 rounded-full bg-white/10 blur-2xl animate-float" style={{ animationDelay: "4s" }} />
+
+        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20 sm:py-28 lg:py-32">
+          <div className="grid gap-12 lg:grid-cols-[1.15fr_1fr] lg:items-center">
+            {/* Left: copy */}
+            <div className="text-primary-foreground animate-fade-in-up">
+              <div className="inline-flex items-center gap-2 rounded-full border border-white/30 bg-white/10 px-3 py-1.5 text-xs font-semibold uppercase tracking-wider backdrop-blur-md">
+                <span className="relative flex h-2 w-2">
+                  <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-white opacity-75" />
+                  <span className="relative inline-flex h-2 w-2 rounded-full bg-white" />
+                </span>
+                Aventra Tech · Bangladesh
+              </div>
+              <h1 className="mt-6 text-4xl sm:text-5xl lg:text-[3.75rem] font-bold leading-[1.02] tracking-tight">
+                Empowering Institutions{" "}
+                <span className="relative inline-block">
+                  <span className="relative z-10 bg-gradient-to-r from-white via-white to-white/70 bg-clip-text text-transparent">
+                    Through Innovation
+                  </span>
+                  <svg className="absolute -bottom-2 left-0 w-full" height="10" viewBox="0 0 300 10" fill="none" preserveAspectRatio="none">
+                    <path d="M2 6 Q 75 2 150 6 T 298 6" stroke="white" strokeWidth="2.5" strokeLinecap="round" opacity="0.7" />
+                  </svg>
+                </span>
+              </h1>
+              <p className="mt-5 text-lg sm:text-xl font-medium opacity-95">
+                উদ্ভাবনের মাধ্যমে প্রতিষ্ঠানকে এগিয়ে নেওয়া
+              </p>
+              <p className="mt-6 text-base sm:text-lg text-primary-foreground/85 max-w-xl">
+                Enterprise-grade IT, software, creative and AI solutions that help hospitals, universities and corporates lead with confidence.
+              </p>
+              <div className="mt-10 flex flex-wrap gap-3">
+                <Link
+                  to="/contact"
+                  className="group inline-flex items-center gap-2 rounded-xl bg-white px-6 py-3.5 text-sm font-semibold text-primary shadow-lift transition-all hover:scale-105 hover:shadow-2xl"
+                >
+                  Get a Proposal
+                  <span className="transition-transform group-hover:translate-x-1">→</span>
+                </Link>
+                <Link
+                  to="/contact"
+                  className="inline-flex items-center gap-2 rounded-xl border border-white/40 bg-white/10 px-6 py-3.5 text-sm font-semibold text-white backdrop-blur-md transition-colors hover:bg-white/20"
+                >
+                  Contact Us
+                </Link>
+              </div>
+
+              {/* Trust bar */}
+              <div className="mt-10 flex flex-wrap items-center gap-x-6 gap-y-3 text-xs text-white/80">
+                <div className="flex items-center gap-2">
+                  <icons.shield className="h-4 w-4" />
+                  <span>ISO-aligned</span>
                 </div>
-              ))}
+                <div className="h-3 w-px bg-white/20 hidden sm:block" />
+                <div className="flex items-center gap-2">
+                  <icons.check className="h-4 w-4" />
+                  <span>SLA-backed AMC</span>
+                </div>
+                <div className="h-3 w-px bg-white/20 hidden sm:block" />
+                <div className="flex items-center gap-2">
+                  <icons.spark className="h-4 w-4" />
+                  <span>150+ institutions</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Right: floating glass card cluster */}
+            <div className="relative hidden lg:block h-[520px] animate-fade-in">
+              {/* Main card */}
+              <div className="absolute right-0 top-8 w-80 rounded-2xl border border-white/25 bg-white/10 p-6 shadow-2xl backdrop-blur-xl animate-float">
+                <div className="flex items-center gap-3">
+                  <div className="grid h-11 w-11 place-items-center rounded-xl bg-white text-primary shadow-lg">
+                    <icons.bot className="h-6 w-6" />
+                  </div>
+                  <div className="min-w-0">
+                    <div className="text-xs font-semibold uppercase tracking-wider text-white/70">AI Assistant</div>
+                    <div className="text-sm font-bold text-white">Automation live</div>
+                  </div>
+                  <div className="ml-auto flex h-2 w-2 rounded-full bg-green-400 shadow-[0_0_12px] shadow-green-400" />
+                </div>
+                <div className="mt-4 space-y-2">
+                  <div className="h-2 rounded-full bg-white/20 overflow-hidden">
+                    <div className="h-full w-4/5 rounded-full bg-white" />
+                  </div>
+                  <div className="h-2 rounded-full bg-white/20 overflow-hidden">
+                    <div className="h-full w-3/5 rounded-full bg-white/80" />
+                  </div>
+                  <div className="h-2 rounded-full bg-white/20 overflow-hidden">
+                    <div className="h-full w-2/3 rounded-full bg-white/60" />
+                  </div>
+                </div>
+                <div className="mt-4 flex items-baseline justify-between">
+                  <span className="text-xs text-white/70">Workflow efficiency</span>
+                  <span className="text-lg font-bold text-white">+84%</span>
+                </div>
+              </div>
+
+              {/* Secondary card */}
+              <div className="absolute left-0 top-48 w-72 rounded-2xl border border-white/25 bg-white/10 p-5 shadow-2xl backdrop-blur-xl animate-float" style={{ animationDelay: "1.5s" }}>
+                <div className="flex items-center justify-between">
+                  <div className="text-xs font-semibold uppercase tracking-wider text-white/70">Uptime</div>
+                  <div className="flex gap-1">
+                    {[6, 10, 8, 14, 11, 16, 20].map((h, i) => (
+                      <div key={i} className="w-1.5 rounded-full bg-white/80" style={{ height: `${h * 2}px` }} />
+                    ))}
+                  </div>
+                </div>
+                <div className="mt-3 text-3xl font-bold text-white">99.98<span className="text-lg opacity-70">%</span></div>
+                <div className="mt-1 text-xs text-white/70">Last 90 days across managed infra</div>
+              </div>
+
+              {/* Tertiary card */}
+              <div className="absolute right-6 bottom-4 w-64 rounded-2xl border border-white/25 bg-white/10 p-5 shadow-2xl backdrop-blur-xl animate-float" style={{ animationDelay: "3s" }}>
+                <div className="flex items-center gap-2">
+                  <icons.server className="h-4 w-4 text-white" />
+                  <span className="text-xs font-semibold text-white">Managed Infrastructure</span>
+                </div>
+                <div className="mt-3 grid grid-cols-3 gap-2">
+                  {["24/7", "AMC", "SLA"].map((t) => (
+                    <div key={t} className="rounded-lg bg-white/15 py-2 text-center text-xs font-bold text-white">{t}</div>
+                  ))}
+                </div>
+              </div>
             </div>
           </div>
+
+          {/* Stats bar */}
+          <div className="mt-16 grid grid-cols-2 gap-px overflow-hidden rounded-2xl border border-white/20 bg-white/10 backdrop-blur-md sm:grid-cols-4">
+            {[
+              { n: "150+", l: "Institutions" },
+              { n: "12+", l: "Industries" },
+              { n: "99.9%", l: "Uptime" },
+              { n: "24/7", l: "Support" },
+            ].map((s) => (
+              <div key={s.l} className="bg-white/[0.03] px-6 py-5 text-primary-foreground">
+                <div className="text-2xl sm:text-3xl font-bold">{s.n}</div>
+                <div className="mt-1 text-xs uppercase tracking-wider opacity-80">{s.l}</div>
+              </div>
+            ))}
+          </div>
         </div>
+
+        {/* Bottom fade */}
+        <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-b from-transparent to-background/40" />
       </section>
+
 
       {/* Intro */}
       <Section className="bg-gradient-soft">

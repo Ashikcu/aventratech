@@ -35,8 +35,8 @@ function Contact() {
               { icon: icons.building, title: "Head Office", value: "Dhaka, Bangladesh" },
               { icon: icons.globe, title: "Email", value: "info@aventratech.com", href: "mailto:info@aventratech.com" },
               { icon: icons.spark, title: "Website", value: "www.aventratech.com", href: "https://www.aventratech.com" },
-              { icon: icons.megaphone, title: "Phone", value: "+880 1XXX-XXXXXX" },
-              { icon: icons.bot, title: "WhatsApp", value: "+880 1XXX-XXXXXX" },
+              { icon: icons.megaphone, title: "Phone", value: "+880 1570-265298", href: "tel:+8801570265298" },
+              { icon: icons.bot, title: "WhatsApp", value: "+880 1570-265298", href: "https://wa.me/8801570265298" },
             ].map((c) => {
               const Icon = c.icon;
               const content = (

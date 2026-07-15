@@ -8,7 +8,7 @@ export function SiteFooter() {
           <div>
             <div className="flex items-center gap-2">
               <div className="grid h-9 w-9 place-items-center rounded-lg bg-gradient-hero text-primary-foreground font-bold shadow-elegant">
-                A
+                AT
               </div>
               <span className="font-display text-lg font-bold">
                 Aventra <span className="text-primary">Tech</span>

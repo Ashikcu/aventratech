@@ -19,7 +19,7 @@ export function SiteNav() {
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link to="/" className="flex items-center gap-2">
           <div className="grid h-9 w-9 place-items-center rounded-lg bg-gradient-hero text-primary-foreground font-bold shadow-elegant">
-            A
+            AT
           </div>
           <span className="font-display text-lg font-bold tracking-tight">
             Aventra <span className="text-primary">Tech</span>

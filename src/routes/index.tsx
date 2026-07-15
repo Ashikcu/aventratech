@@ -50,7 +50,7 @@ function Home() {
                 উদ্ভাবনের মাধ্যমে প্রতিষ্ঠানকে এগিয়ে নেওয়া
               </p>
               <p className="mt-6 text-base sm:text-lg text-primary-foreground/85 max-w-xl">
-                Enterprise-grade IT, software, creative and AI solutions that help hospitals, universities and corporates lead with confidence.
+                Enterprise-grade IT, software, creative, and AI solutions that help hospitals, universities, and corporates lead with confidence.
               </p>
               <div className="mt-10 flex flex-wrap gap-3">
                 <Link

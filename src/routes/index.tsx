@@ -87,10 +87,10 @@ function Home() {
               </div>
             </div>
 
-            {/* Right: floating glass card cluster */}
-            <div className="relative hidden lg:block h-[520px] animate-fade-in">
+            {/* Right: floating glass card cluster (desktop only; skipped from paint on mobile) */}
+            <div className="relative hidden lg:block h-[520px] motion-safe:animate-fade-in [content-visibility:auto] [contain-intrinsic-size:520px]" aria-hidden>
               {/* Main card */}
-              <div className="absolute right-0 top-8 w-80 rounded-2xl border border-white/25 bg-white/10 p-6 shadow-2xl backdrop-blur-xl animate-float">
+              <div className="absolute right-0 top-8 w-80 rounded-2xl border border-white/25 bg-white/15 p-6 shadow-2xl transform-gpu will-change-transform motion-safe:animate-float">
                 <div className="flex items-center gap-3">
                   <div className="grid h-11 w-11 place-items-center rounded-xl bg-white text-primary shadow-lg">
                     <icons.bot className="h-6 w-6" />
@@ -119,7 +119,7 @@ function Home() {
               </div>
 
               {/* Secondary card */}
-              <div className="absolute left-0 top-48 w-72 rounded-2xl border border-white/25 bg-white/10 p-5 shadow-2xl backdrop-blur-xl animate-float" style={{ animationDelay: "1.5s" }}>
+              <div className="absolute left-0 top-48 w-72 rounded-2xl border border-white/25 bg-white/15 p-5 shadow-2xl transform-gpu will-change-transform motion-safe:animate-float" style={{ animationDelay: "1.5s" }}>
                 <div className="flex items-center justify-between">
                   <div className="text-xs font-semibold uppercase tracking-wider text-white/70">Uptime</div>
                   <div className="flex gap-1">
@@ -133,7 +133,7 @@ function Home() {
               </div>
 
               {/* Tertiary card */}
-              <div className="absolute right-6 bottom-4 w-64 rounded-2xl border border-white/25 bg-white/10 p-5 shadow-2xl backdrop-blur-xl animate-float" style={{ animationDelay: "3s" }}>
+              <div className="absolute right-6 bottom-4 w-64 rounded-2xl border border-white/25 bg-white/15 p-5 shadow-2xl transform-gpu will-change-transform motion-safe:animate-float" style={{ animationDelay: "3s" }}>
                 <div className="flex items-center gap-2">
                   <icons.server className="h-4 w-4 text-white" />
                   <span className="text-xs font-semibold text-white">Managed Infrastructure</span>

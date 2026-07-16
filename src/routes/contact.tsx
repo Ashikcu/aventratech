@@ -22,8 +22,8 @@ function Contact() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20 sm:py-24">
           <div className="max-w-3xl animate-fade-in-up">
             <div className="inline-flex items-center rounded-full border border-white/30 bg-white/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider">Get in Touch</div>
-            <h1 className="mt-5 text-4xl sm:text-5xl font-bold tracking-tight">Let's build something remarkable.</h1>
-            <p className="mt-4 text-lg opacity-90">Tell us about your institution and we'll get back within one business day.</p>
+            <h1 className="mt-5 text-4xl sm:text-5xl font-bold tracking-tight">Let’s build the future of your institution.</h1>
+            <p className="mt-4 text-lg opacity-90">Tell us about your organization and goals—our team will respond within one business day with the right next steps.</p>
           </div>
         </div>
       </section>

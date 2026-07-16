@@ -148,10 +148,10 @@ export const services = [
 export const industries = [
   { icon: icons.hospital, title: "Healthcare", desc: "Hospitals, clinics & diagnostic centers" },
   { icon: icons.school, title: "Education", desc: "Schools, colleges & universities" },
-  { icon: icons.building, title: "Corporate", desc: "Enterprises & holding groups" },
-  { icon: icons.store, title: "SME", desc: "Small & medium businesses" },
-  { icon: icons.heart, title: "NGO", desc: "Non-profits & foundations" },
-  { icon: icons.globe, title: "International", desc: "Clients across borders" },
+  { icon: icons.building, title: "Corporate", desc: "Enterprises & business groups" },
+  { icon: icons.store, title: "Government & Public Sector", desc: "Public institutions & service organizations" },
+  { icon: icons.heart, title: "NGO & Development Organizations", desc: "Non-profits & development partners" },
+  { icon: icons.globe, title: "International Clients", desc: "Remote technology services across borders" },
 ];
 
 export const values = [

@@ -196,7 +196,7 @@ function Home() {
                   <icons.spark className="h-5 w-5" />
                 </div>
                 <h3 className="mt-3 font-semibold">{v.title}</h3>
-                <p className="mt-1 text-sm text-muted-foreground">{v.desc}</p>
+                <p className="mt-1 text-sm text-muted-foreground whitespace-pre-line">{v.desc}</p>
               </div>
             ))}
           </div>

@@ -76,7 +76,7 @@ function About() {
 
       {/* Core Values */}
       <Section>
-        <SectionHeader eyebrow="Core Values" title="What we stand for" description="Five principles that shape every engagement." />
+        <SectionHeader eyebrow="Core Values" title="What we stand for" description="Five principles that guide every project and partnership." />
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-5">
           {values.map((v) => (
             <Card key={v.title}>
@@ -95,12 +95,12 @@ function About() {
         <SectionHeader eyebrow="Why Choose Aventra Tech" title="Purpose-built for institutions" />
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {[
-            { icon: icons.shield, title: "Enterprise-grade Security", desc: "Firewalls, audits, and data policies that meet regulated environments." },
-            { icon: icons.spark, title: "Full-stack Capability", desc: "From cabling to AI — one accountable partner for the entire stack." },
-            { icon: icons.check, title: "Bilingual Delivery", desc: "Bangla and English teams that speak your users' language." },
-            { icon: icons.server, title: "SLA-backed AMC", desc: "Predictable maintenance costs with measurable uptime." },
-            { icon: icons.bot, title: "AI-first Mindset", desc: "Automation woven into every solution, not bolted on." },
-            { icon: icons.heart, title: "Long-term Partnership", desc: "80% of our clients are with us for 3+ years." },
+            { icon: icons.shield, title: "Enterprise-grade Security", desc: "Firewalls, access controls, and security best practices for regulated environments." },
+            { icon: icons.spark, title: "Full-stack Capability", desc: "From infrastructure and software to creative and AI one accountable technology partner." },
+            { icon: icons.check, title: "Bilingual Delivery", desc: "Bangla and English support that aligns with your teams and users." },
+            { icon: icons.server, title: "SLA-backed AMC", desc: "Predictable maintenance, priority support, and measurable service uptime." },
+            { icon: icons.bot, title: "AI-first Mindset", desc: "Automation and intelligent workflows built into modern business solutions." },
+            { icon: icons.heart, title: "Long-term Partnership", desc: "Focused on sustainable relationships, continuous improvement, and client success." },
           ].map((f) => {
             const Icon = f.icon;
             return (

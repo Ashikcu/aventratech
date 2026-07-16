@@ -156,10 +156,10 @@ export const industries = [
 
 export const values = [
   { title: "Integrity", desc: "Transparent communication and trusted partnerships.\n" },
-  { title: "Quality", desc: "Solutions built for performance and long-term reliability.\n\n" },
+  { title: "Quality", desc: "Solutions built for performance, Security, and long-term reliability." },
   { title: "Commitment", desc: "On-time delivery with dedicated client support." },
   { title: "Innovation", desc: "Leveraging AI and modern technologies for smarter operations.\n\n" },
-  { title: "Client Success", desc: "Your growth is our benchmark." },
+  { title: "Client Success", desc: "Your growth is the measure of our success." },
 ];
 
 export const packages = [

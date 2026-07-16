@@ -19,8 +19,8 @@ function About() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20 sm:py-24">
           <div className="max-w-3xl animate-fade-in-up">
             <div className="inline-flex items-center rounded-full border border-white/30 bg-white/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider">About Aventra Tech</div>
-            <h1 className="mt-5 text-4xl sm:text-5xl font-bold tracking-tight">Built on integrity. Driven by innovation.</h1>
-            <p className="mt-4 text-lg opacity-90">A cross-disciplinary team of engineers, designers and strategists — helping institutions thrive in a digital-first world.</p>
+            <h1 className="mt-5 text-4xl sm:text-5xl font-bold tracking-tight whitespace-pre-line">Built on integrity.{"\u00a0"}Driven by innovation.{"\u00a0"}{"\n"}Focused on results.</h1>
+            <p className="mt-4 text-lg opacity-90">A multidisciplinary team of engineers, designers, and technology strategists helping hospitals, universities, and businesses thrive in a digital-first world.</p>
           </div>
         </div>
       </section>
@@ -45,10 +45,10 @@ function About() {
             <div className="inline-flex items-center rounded-full border border-primary/20 bg-primary/5 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-primary">Founder's Message</div>
             <h2 className="mt-4 text-3xl sm:text-4xl font-bold tracking-tight">A note from Ashik Iqbal</h2>
             <div className="mt-6 space-y-4 text-muted-foreground text-lg leading-relaxed">
-              <p>When we started Aventra Tech, we asked a simple question: why should institutions in Bangladesh settle for anything less than world-class technology?</p>
-              <p>Today we serve hospitals, schools, and corporates that trust us not just to deliver code and campaigns — but to be accountable partners in their transformation.</p>
-              <p>Every project we take on is a promise: to be honest about what's possible, disciplined about how we build it, and relentless about the outcomes it produces.</p>
-              <p className="font-semibold text-foreground">Thank you for considering us as your partner.</p>
+              <p>When we founded Aventra Tech, we believed that institutions in Bangladesh deserve technology that is not only modern but also reliable, secure, and built for long-term growth.</p>
+              <p>Today, leading organizations in healthcare, education, and enterprise trust us to deliver practical IT, software, creative, and AI solutions tailored to their unique needs.</p>
+              <p>Our commitment is simple: transparent communication, disciplined execution, and measurable results. Every project we take on is an opportunity to help an organization operate smarter and grow with confidence.</p>
+              <p className="font-semibold text-foreground">Thank you for considering Aventra Tech as your technology partner.</p>
             </div>
           </div>
         </div>
@@ -62,14 +62,14 @@ function About() {
               <icons.globe className="h-6 w-6" />
             </div>
             <h3 className="mt-4 text-2xl font-bold">Our Vision</h3>
-            <p className="mt-2 text-muted-foreground">To become the most trusted technology partner for institutions across South Asia — recognized for the outcomes we create, not just the products we ship.</p>
+            <p className="mt-2 text-muted-foreground">To become the most trusted technology partner for healthcare, education, and enterprises across Bangladesh and globally.</p>
           </Card>
           <Card>
             <div className="grid h-12 w-12 place-items-center rounded-xl bg-gradient-hero text-primary-foreground shadow-elegant">
               <icons.spark className="h-6 w-6" />
             </div>
             <h3 className="mt-4 text-2xl font-bold">Our Mission</h3>
-            <p className="mt-2 text-muted-foreground">To design, build and support technology that lets hospitals heal better, schools teach better, and businesses grow smarter — with integrity at every step.</p>
+            <p className="mt-2 text-muted-foreground">Designing, building, and supporting secure IT, software, creative, and AI solutions that empower organizations to operate smarter, grow faster, and deliver exceptional outcomes.</p>
           </Card>
         </div>
       </Section>

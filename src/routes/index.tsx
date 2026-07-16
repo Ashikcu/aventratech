@@ -47,7 +47,7 @@ function Home() {
                 উদ্ভাবনের মাধ্যমে প্রতিষ্ঠানকে এগিয়ে নেওয়া
               </p>
               <p className="mt-6 text-base sm:text-lg text-primary-foreground/85 max-w-xl">
-                Empowering hospitals, universities and corporate organizations with enterprise-grade IT, software, creative and AI solutions to innovate, grow and lead with confidence.
+                Empowering healthcare, education, and modern enterprises with enterprise-grade IT, software, creative, and AI solutions to innovate, grow, and lead with confidence.
               </p>
               <div className="mt-10 flex flex-wrap gap-3">
                 <Link
@@ -173,10 +173,10 @@ function Home() {
               Who We Are
             </div>
             <h2 className="mt-4 text-3xl sm:text-4xl font-bold tracking-tight">
-              A trusted technology partner for hospitals, universities, and modern enterprises.
+              A trusted technology partner for healthcare, education, and modern enterprises.
             </h2>
             <p className="mt-4 text-muted-foreground text-lg">
-              Aventra Tech delivers IT infrastructure, custom software, creative solutions and AI automation under one roof—helping organizations operate smarter, grow faster and focus on what matters most.
+              Aventra Tech delivers IT infrastructure, custom software, creative solutions, and AI automation under one roof—helping organizations operate smarter, grow faster, and focus on what matters most.
             </p>
             <div className="mt-6 grid sm:grid-cols-2 gap-3">
               {["End-to-end project delivery", "Enterprise-grade security", "Bilingual support (Bangla & English)", "SLA-backed AMC & maintenance"].map((f) => (

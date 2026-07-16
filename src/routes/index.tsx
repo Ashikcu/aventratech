@@ -257,8 +257,8 @@ function Home() {
           <div className="absolute inset-0 opacity-20 [background:radial-gradient(circle_at_80%_20%,white_1px,transparent_1px)] [background-size:24px_24px]" />
           <div className="relative grid gap-6 md:grid-cols-[1fr_auto] md:items-center">
             <div>
-              <h2 className="text-3xl sm:text-4xl font-bold">Ready to transform your institution?</h2>
-              <p className="mt-3 opacity-90 max-w-xl">Talk to our consultants about the outcomes you want — we'll design the technology that gets you there.</p>
+              <h2 className="text-3xl sm:text-4xl font-bold">Ready to transform your institution with technology?</h2>
+              <p className="mt-3 opacity-90 max-w-xl">Talk to our consultants about your goals—we’ll design the right IT, software, and AI solutions to help your organization grow with confidence.</p>
             </div>
             <div className="flex flex-wrap gap-3">
               <Link to="/contact" className="inline-flex items-center rounded-lg bg-white px-6 py-3 text-sm font-semibold text-primary shadow-lift transition-transform hover:scale-105">

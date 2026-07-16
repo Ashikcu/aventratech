@@ -173,7 +173,7 @@ function Home() {
               Who We Are
             </div>
             <h2 className="mt-4 text-3xl sm:text-4xl font-bold tracking-tight">
-             A trusted technology partner for hospitals, universities, Private Companies, and modern enterprises.
+              A trusted technology partner for hospitals, universities, and modern enterprises.
             </h2>
             <p className="mt-4 text-muted-foreground text-lg">
               Aventra Tech delivers IT infrastructure, custom software, creative solutions and AI automation under one roof—helping organizations operate smarter, grow faster and focus on what matters most.

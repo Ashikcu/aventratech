@@ -13,12 +13,12 @@ export const Route = createFileRoute("/policies")({
 });
 
 const policies = [
-  { icon: icons.check, title: "Payment Policy", desc: "50% advance to initiate work, 50% before final delivery. Monthly plans are billed in advance. All payments via bank transfer, bKash, or Nagad." },
-  { icon: icons.spark, title: "Revision Policy", desc: "Up to 3 rounds of revisions included per deliverable. Additional revisions billed at standard hourly rates. Scope changes documented and approved before work begins." },
-  { icon: icons.shield, title: "Warranty Policy", desc: "6-month warranty on all custom software. 1-year warranty on hardware installations. Bug fixes and critical patches covered under warranty." },
-  { icon: icons.server, title: "Data Privacy", desc: "GDPR-aligned data handling. Client data is never shared with third parties. NDAs signed on request. End-to-end encryption for sensitive transfers." },
-  { icon: icons.bot, title: "Support Channels", desc: "Email, WhatsApp, phone hotline, and dedicated Slack channel for enterprise clients. Ticketing system for AMC clients with SLA tracking." },
-  { icon: icons.globe, title: "Working Hours", desc: "Sunday–Thursday: 9:00 AM – 6:00 PM. Emergency support available 24/7 for AMC clients. Weekend maintenance windows by appointment." },
+  { icon: icons.check, title: "Payment Policy", desc: "25% advance to initiate work, 75% after final delivery. Monthly support plans are billed in advance. Payment is accepted via bank transfer, bKash, and Nagad." },
+  { icon: icons.spark, title: "Revision Policy", desc: "Up to 5 rounds of revisions are included per deliverable. Additional revisions may be billed separately after approval of the final scope." },
+  { icon: icons.shield, title: "Warranty Policy", desc: "6-month warranty on custom software and bug fixes for approved deliverables. Hardware installations include warranty support as per manufacturer terms." },
+  { icon: icons.server, title: "Data Privacy", desc: "Client data is handled confidentially and is never shared with third parties without consent. NDA agreements are available on request." },
+  { icon: icons.bot, title: "Support Channels", desc: "Support is available via email, phone, WhatsApp, and dedicated channels for enterprise clients. SLA tracking is available for AMC customers." },
+  { icon: icons.globe, title: "Working Hours", desc: "Saturday–Thursday: 10:00 AM – 7:00 PM. Emergency support is available for AMC clients, with scheduled weekend maintenance when required." },
 ];
 
 function Policies() {
@@ -29,7 +29,7 @@ function Policies() {
           <div className="max-w-3xl animate-fade-in-up">
             <div className="inline-flex items-center rounded-full border border-white/30 bg-white/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider">Policies & Support</div>
             <h1 className="mt-5 text-4xl sm:text-5xl font-bold tracking-tight">Transparent policies. Reliable support.</h1>
-            <p className="mt-4 text-lg opacity-90">Clear terms so you always know where you stand.</p>
+            <p className="mt-4 text-lg opacity-90">Clear terms so you always know where your project stand.</p>
           </div>
         </div>
       </section>

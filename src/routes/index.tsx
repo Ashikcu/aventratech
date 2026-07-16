@@ -219,7 +219,18 @@ function Home() {
                   <Icon className="h-6 w-6" />
                 </div>
                 <h3 className="mt-5 text-xl font-semibold">{s.title}</h3>
-                <p className="mt-2 text-sm text-muted-foreground">{s.short}</p>
+                <p className="mt-2 text-sm text-muted-foreground">
+                  {s.key === "marketing" ? (
+                    <>
+                      Data-driven campaigns that generate visibility, engagement and qualified leads.
+                      <p className="mt-2">
+                        <b>Custom websites, ERP, POS, hospital management systems and mobile applications.</b>
+                      </p>
+                    </>
+                  ) : (
+                    s.short
+                  )}
+                </p>
                 <Link to="/services" hash={s.key} className="mt-5 inline-flex items-center gap-1 text-sm font-semibold text-primary group-hover:gap-2 transition-all">
                   Learn More →
                 </Link>

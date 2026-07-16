@@ -91,7 +91,7 @@ export const services = [
     key: "marketing",
     icon: icons.megaphone,
     title: "Digital Marketing",
-    short: "Data-driven campaigns that generate visibility, engagement and qualified leads.",
+    short: "Data-driven social media campaigns that generate visibility, engagement, and qualified leads.",
     details: [
       "Facebook Ads management",
       "Google Ads & display",
@@ -105,7 +105,7 @@ export const services = [
     key: "branding",
     icon: icons.palette,
     title: "Branding & Creative Design",
-    short: "Distinctive brand identities and creatives that command attention.",
+    short: "Professional brand identity, social media creatives, corporate profiles, and marketing materials.",
     details: [
       "Logo & identity design",
       "Company profile design",
@@ -119,7 +119,7 @@ export const services = [
     key: "video",
     icon: icons.film,
     title: "Video Production",
-    short: "Cinematic storytelling for brands, institutions, and campaigns.",
+    short: "Corporate videos, promotional campaigns, institutional documentaries, and event coverage.",
     details: [
       "Corporate videos",
       "Promotional & product videos",
@@ -133,7 +133,7 @@ export const services = [
     key: "ai",
     icon: icons.bot,
     title: "AI & Automation Solutions",
-    short: "Intelligent workflows and assistants that save hours every week.",
+    short: "AI assistants, workflow automation, chatbot solutions and intelligent business operations.",
     details: [
       "AI chatbots",
       "WhatsApp automation",

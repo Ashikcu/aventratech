@@ -155,10 +155,10 @@ export const industries = [
 ];
 
 export const values = [
-  { title: "Integrity", desc: "Transparent communication and trusted partnerships.\nস্বচ্ছ যোগাযোগ ও বিশ্বস্ত অংশীদারিত্ব।" },
-  { title: "Quality", desc: "Solutions built for performance and long-term reliability.\nদীর্ঘমেয়াদি নির্ভরযোগ্যতা ও উচ্চমানের সমাধান।" },
-  { title: "Commitment", desc: "On-time delivery with dedicated client support.\nসময়নিষ্ঠ ডেলিভারি ও নিবেদিত সহায়তা।" },
-  { title: "Innovation", desc: "Leveraging AI and modern technologies for smarter operations.\nস্মার্ট পরিচালনার জন্য এআই ও আধুনিক প্রযুক্তির ব্যবহার।" },
+  { title: "Integrity", desc: "Transparent communication and trusted partnerships.\n" },
+  { title: "Quality", desc: "Solutions built for performance and long-term reliability.\n\n" },
+  { title: "Commitment", desc: "On-time delivery with dedicated client support." },
+  { title: "Innovation", desc: "Leveraging AI and modern technologies for smarter operations.\n\n" },
   { title: "Client Success", desc: "Your growth is our benchmark." },
 ];
 

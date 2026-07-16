@@ -33,11 +33,10 @@ export function SiteFooter() {
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>Website & Software</li>
               <li>AI & Automation</li>
-              <li>AI & Automation</li>
+              <li>IT Infrastructure</li>
               <li>Branding & Design</li>
               <li>Digital Marketing</li>
               <li>Video Production</li>
-              <li>IT Infrastructure</li>
             </ul>
           </div>
           <div>
@@ -50,7 +49,7 @@ export function SiteFooter() {
             <div className="mt-4 flex gap-3">
               {["Facebook", "LinkedIn", "YouTube", "X"].map((s) => (
                 <a key={s} href="#" aria-label={s} className="grid h-9 w-9 place-items-center rounded-full border border-border text-muted-foreground transition-colors hover:border-primary hover:text-primary">
-                  <span className="text-xs font-semibold">{s === "Facebook" ? "Facebook" : s[0]}</span>
+                  <span className="text-xs font-semibold">{s === "Facebook" ? "F" : s[0]}</span>
                 </a>
               ))}
             </div>

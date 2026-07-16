@@ -173,13 +173,13 @@ function Home() {
               Who We Are
             </div>
             <h2 className="mt-4 text-3xl sm:text-4xl font-bold tracking-tight">
-             A trusted technology partner for hospitals, universities and modern enterprises.
+             A trusted technology partner for hospitals, universities, Private Companies, and modern enterprises.
             </h2>
             <p className="mt-4 text-muted-foreground text-lg">
               Aventra Tech delivers IT infrastructure, custom software, creative solutions and AI automation under one roof—helping organizations operate smarter, grow faster and focus on what matters most.
             </p>
             <div className="mt-6 grid sm:grid-cols-2 gap-3">
-              {["End-to-end delivery", "Enterprise-grade security", "Bilingual support", "SLA-backed AMC"].map((f) => (
+              {["End-to-end project delivery", "Enterprise-grade security", "Bilingual support (Bangla & English)", "SLA-backed AMC & maintenance"].map((f) => (
                 <div key={f} className="flex items-center gap-2 text-sm">
                   <div className="grid h-6 w-6 shrink-0 place-items-center rounded-full bg-primary/10 text-primary">
                     <icons.check className="h-4 w-4" />
@@ -196,7 +196,7 @@ function Home() {
                   <icons.spark className="h-5 w-5" />
                 </div>
                 <h3 className="mt-3 font-semibold">{v.title}</h3>
-                <p className="mt-1 text-sm text-muted-foreground">{v.desc}</p>
+                <p className="mt-1 text-sm text-muted-foreground whitespace-pre-line">{v.desc}</p>
               </div>
             ))}
           </div>

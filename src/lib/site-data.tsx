@@ -155,10 +155,10 @@ export const industries = [
 ];
 
 export const values = [
-  { title: "Integrity", desc: "Transparent processes and honest partnerships." },
-  { title: "Quality", desc: "Standards that outlast trends." },
-  { title: "Commitment", desc: "Deadlines met, promises kept." },
-  { title: "Innovation", desc: "Bringing tomorrow's tools today." },
+  { title: "Integrity", desc: "Transparent communication and trusted partnerships.\n" },
+  { title: "Quality", desc: "Solutions built for performance and long-term reliability.\n\n" },
+  { title: "Commitment", desc: "On-time delivery with dedicated client support." },
+  { title: "Innovation", desc: "Leveraging AI and modern technologies for smarter operations.\n\n" },
   { title: "Client Success", desc: "Your growth is our benchmark." },
 ];
 

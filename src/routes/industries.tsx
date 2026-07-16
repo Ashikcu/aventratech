@@ -19,14 +19,14 @@ function Industries() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20 sm:py-24">
           <div className="max-w-3xl animate-fade-in-up">
             <div className="inline-flex items-center rounded-full border border-white/30 bg-white/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider">Industries</div>
-            <h1 className="mt-5 text-4xl sm:text-5xl font-bold tracking-tight">Purpose-built for the sectors we serve.</h1>
-            <p className="mt-4 text-lg opacity-90">Deep domain understanding across regulated and fast-moving industries.</p>
+            <h1 className="mt-5 text-4xl sm:text-5xl font-bold tracking-tight">Tailored technology solutions for fast-growing sectors.</h1>
+            <p className="mt-4 text-lg opacity-90">Deep domain expertise across healthcare, education, corporate, and development sectors.</p>
           </div>
         </div>
       </section>
 
       <Section>
-        <SectionHeader eyebrow="Who We Serve" title="Six industries. Countless outcomes." />
+        <SectionHeader eyebrow="Who We Serve" title="Six industries. One trusted technology partner." />
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {industries.map((ind) => {
             const Icon = ind.icon;

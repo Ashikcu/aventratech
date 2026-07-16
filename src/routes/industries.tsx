@@ -26,7 +26,7 @@ function Industries() {
       </section>
 
       <Section>
-        <SectionHeader eyebrow="Who We Serve" title="Six industries. One trusted technology partner." />
+        <SectionHeader eyebrow="Who We Serve" title={<>Tailored IT, Software & AI for <b>diverse industries.</b></>} />
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {industries.map((ind) => {
             const Icon = ind.icon;

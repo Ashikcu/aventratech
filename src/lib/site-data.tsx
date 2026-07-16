@@ -63,7 +63,7 @@ export const services = [
     key: "it",
     icon: icons.server,
     title: "IT Infrastructure Solutions",
-    short: "End-to-end networking, servers, and secure IT support for growing organizations.",
+    short: "Secure networking, servers, cloud, IT project management and IT support for hospitals, universities and enterproses.",
     details: [
       "Computer setup & configuration",
       "Network design & Wi-Fi deployment",
@@ -76,8 +76,8 @@ export const services = [
   {
     key: "software",
     icon: icons.code,
-    title: "Website & Software Development",
-    short: "Custom websites, ERP, POS and mobile apps built for scale and performance.",
+    title: "Website, Software & App Development",
+    short: "Custom websites, ERP, POS, hospital management systems and mobile applications.",
     details: [
       "Corporate & company websites",
       "Hospital management websites",
@@ -91,7 +91,7 @@ export const services = [
     key: "marketing",
     icon: icons.megaphone,
     title: "Digital Marketing",
-    short: "Performance-driven campaigns that deliver measurable growth and leads.",
+    short: "Data-driven campaigns that generate visibility, engagement and qualified leads.",
     details: [
       "Facebook Ads management",
       "Google Ads & display",

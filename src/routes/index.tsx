@@ -232,7 +232,7 @@ function Home() {
 
       {/* Industries */}
       <Section className="bg-gradient-soft">
-        <SectionHeader eyebrow="Industries" title="Trusted across sectors" />
+        <SectionHeader eyebrow="Industries" title="Trusted across key sectors" />
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {industries.map((ind) => {
             const Icon = ind.icon;

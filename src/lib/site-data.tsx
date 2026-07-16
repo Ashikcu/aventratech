@@ -172,12 +172,12 @@ export const packages = [
 ];
 
 export const process = [
-  { step: "01", title: "Requirement Analysis", desc: "We understand your business goals and pain points in depth." },
-  { step: "02", title: "Consultation", desc: "Expert advisory to align technology with strategy." },
-  { step: "03", title: "Proposal", desc: "Tailored solution architecture and scope definition." },
-  { step: "04", title: "Quotation", desc: "Transparent pricing with milestones." },
-  { step: "05", title: "Agreement", desc: "Formal contract and kickoff." },
-  { step: "06", title: "Development", desc: "Agile delivery with weekly check-ins." },
-  { step: "07", title: "Delivery", desc: "Deployment, QA and go-live." },
-  { step: "08", title: "Training & Support", desc: "Onboarding, documentation, and ongoing support." },
+  { step: "01", title: "Requirement Analysis", desc: "Understanding business goals, users, and operational challenges." },
+  { step: "02", title: "Consultation", desc: "Aligning technology choices with your strategy and priorities." },
+  { step: "03", title: "Solution Proposal", desc: "Defining scope, architecture, timeline, and expected outcomes." },
+  { step: "04", title: "Quotation & Planning", desc: "Transparent pricing, milestones, and delivery planning." },
+  { step: "05", title: "Agreement & Kickoff", desc: "Formal approval, contract execution and project initiation." },
+  { step: "06", title: "Development & Implementation", desc: "Agile development with regular updates and quality checks." },
+  { step: "07", title: "Delivery & Deployment", desc: "Testing, deployment, QA validation, and go-live support." },
+  { step: "08", title: "Training & Ongoing Support", desc: "User training, documentation, maintenance, and continuous support." },
 ];

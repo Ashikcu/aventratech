@@ -32,7 +32,7 @@ function Contact() {
         <div className="grid gap-10 lg:grid-cols-5">
           <div className="lg:col-span-2 space-y-6">
             {[
-              { icon: icons.building, title: "Head Office", value: "114, Kazi Nazrul Islam Avenue, Rupayan Trade Centre, Banglamotor, Dhaka, Bangladesh" },
+              { icon: icons.building, title: "Head Office", value: "114, Kazi Nazrul Islam Avenue, Rupayan Trade Centre, Banglamotor, Dhaka-1000, Bangladesh" },
               { icon: icons.globe, title: "Email", value: "info@aventratech.net", href: "mailto:info@aventratech.net" },
               { icon: icons.spark, title: "Website", value: "www.aventratech.net", href: "https://www.aventratech.net" },
               { icon: icons.megaphone, title: "Phone", value: "+880 1570-265298", href: "tel:+8801570265298" },
@@ -61,7 +61,7 @@ function Contact() {
           <div className="lg:col-span-3">
             <div className="rounded-3xl border border-border bg-card p-6 sm:p-8 shadow-card">
               <h2 className="text-2xl font-bold">Send us a message</h2>
-              <p className="mt-1 text-sm text-muted-foreground">We'll respond within 1 business day.</p>
+              <p className="mt-1 text-sm text-muted-foreground">Tell us about your project or organization—we’ll respond within 01 business day.</p>
               {sent ? (
                 <div className="mt-6 rounded-xl border border-primary/30 bg-primary/5 p-6 text-center">
                   <div className="mx-auto grid h-12 w-12 place-items-center rounded-full bg-primary text-primary-foreground">
@@ -79,16 +79,16 @@ function Contact() {
                   }}
                 >
                   <div className="grid gap-4 sm:grid-cols-2">
-                    <Field label="Name" name="name" required />
-                    <Field label="Email" name="email" type="email" required />
+                    <Field label="Full Name" name="name" required />
+                    <Field label="Email Address" name="email" type="email" required />
                   </div>
                   <div className="grid gap-4 sm:grid-cols-2">
-                    <Field label="Phone" name="phone" />
-                    <Field label="Organization" name="org" />
+                    <Field label="Phone Number" name="phone" />
+                    <Field label="Organization/Institution" name="org" />
                   </div>
-                  <Field label="Subject" name="subject" />
+                  <Field label="Project Subject" name="subject" />
                   <div>
-                    <label className="text-sm font-semibold">Message</label>
+                    <label className="text-sm font-semibold">Project Details/Message</label>
                     <textarea
                       required
                       rows={5}

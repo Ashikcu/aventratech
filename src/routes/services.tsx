@@ -19,7 +19,7 @@ function Services() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20 sm:py-24">
           <div className="max-w-3xl animate-fade-in-up">
             <div className="inline-flex items-center rounded-full border border-white/30 bg-white/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider">Our Services</div>
-            <h1 className="mt-5 text-4xl sm:text-5xl font-bold tracking-tight">Six practices. One partner.</h1>
+            <h1 className="mt-5 text-4xl sm:text-5xl font-bold tracking-tight">Multiple solutions. One partner.</h1>
             <p className="mt-4 text-lg opacity-90">Deep expertise across the technologies your institution needs to lead.</p>
           </div>
         </div>
